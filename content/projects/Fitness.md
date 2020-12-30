@@ -2,7 +2,7 @@
 date: '20'
 title: 'Fitness Membership'
 github: 'https://github.com/KarenEfereyan/fitness-membership'
-external: 'https://fitnessbuddy.netlify.app/
+external: 'https://fitnessbuddy.netlify.app/'
 tech:
   - Html
   - Bulma
