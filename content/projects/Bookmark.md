@@ -2,7 +2,7 @@
 date: '17'
 title: 'Bookmark'
 github: 'https://github.com/KarenEfereyan/Bookmark-LandingPage'
-external: 'https://bookmark-landing-page-chi.vercel.app/
+external: 'https://bookmark-landing-page-chi.vercel.app/'
 tech:
   - Html
   - CSS
