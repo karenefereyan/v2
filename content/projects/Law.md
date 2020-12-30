@@ -1,15 +1,14 @@
 ---
-date: '4'
-title: 'Law Agency Template Website Design'
+date: '6'
+title: 'Law Agency Template'
 github: 'https://github.com/KarenEfereyan/Law-Business-Page'
 external: 'https://law-business-page.vercel.app/'
 tech:
-  - HTML
+  - Html
   - CSS
   - Javascript
-  - Bootstrap
 company: 'Personal'
 showInProjects: true
 ---
-
-A landing page for a law agency website. 
+    
+A simple landing page for a law agency.
