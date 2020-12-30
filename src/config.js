@@ -4,23 +4,19 @@ module.exports = {
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/bchiang7',
+      url: 'https://github.com/KarenEfereyan',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
-    },
-    {
-      name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
+      url: 'https://www.linkedin.com/in/KarenEfereyan',
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
+      url: 'https://www.instagram.com/KarenEfereyan',
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
+      url: 'https://twitter.com/EfereyanK',
     },
   ],
 
@@ -28,6 +24,10 @@ module.exports = {
     {
       name: 'About',
       url: '/#about',
+    },
+    {
+      name : 'Speaking',
+      url : '/#speaking',
     },
     {
       name: 'Experience',
