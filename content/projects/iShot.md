@@ -2,7 +2,7 @@
 date: '19'
 title: 'iShot Photography Template'
 github: 'https://github.com/KarenEfereyan/iShot-photography-template'
-external: 'https://ishot.netlify.app/"
+external: 'https://ishot.netlify.app/'
 tech:
   - Html
   - CSS
