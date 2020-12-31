@@ -1,6 +1,6 @@
 ---
-date: '17'
-title: 'Bookmark'
+date: '5'
+title: 'Bookmark Website'
 github: 'https://github.com/KarenEfereyan/Bookmark-LandingPage'
 external: 'https://bookmark-landing-page-chi.vercel.app/'
 tech:
@@ -11,5 +11,5 @@ tech:
 company: 'Personal'
 showInProjects: true
 ---
- A frontendmentor design inspiration coded from scratch by myself.I learnt how to use
-            bootstrap classes for responsive image styling
+ A frontendmentor design inspiration coded from scratch by myself. I learnt how to use
+bootstrap classes for responsive image styling

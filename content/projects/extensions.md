@@ -1,5 +1,5 @@
 ---
-date: '8'
+date: '10'
 title: 'Extensions for every developer'
 github: 'https://github.com/KarenEfereyan/extensions-4-every-developer'
 external: ''

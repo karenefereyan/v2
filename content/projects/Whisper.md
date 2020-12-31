@@ -1,5 +1,5 @@
 ---
-date: '11'
+date: '24'
 title: 'Whisper'
 github: 'https://github.com/KarenEfereyan/Whisper'
 external: ''

@@ -1,5 +1,5 @@
 ---
-date: '19'
+date: '14'
 title: 'iShot Photography Template'
 github: 'https://github.com/KarenEfereyan/iShot-photography-template'
 external: 'https://ishot.netlify.app/'

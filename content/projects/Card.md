@@ -1,5 +1,5 @@
 ---
-date: '15'
+date: '6'
 title: 'Four Card Feature'
 github: 'https://github.com/KarenEfereyan/FourCardFeature'
 external: 'https://four-card-feature-wheat.now.sh/'
@@ -13,4 +13,4 @@ showInProjects: true
 ---
     
 A simple frontendmentor design inspiration challenge that I coded out by myself. I
-            learnt a lot about using grids for layouts
+learnt a lot about using grids for layouts

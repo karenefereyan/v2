@@ -1,5 +1,5 @@
 ---
-date: '9'
+date: '4'
 title: 'A Simple Blogging Application'
 github: 'https://github.com/KarenEfereyan/Blog'
 external: 'https://karen1blog.herokuapp.com/'

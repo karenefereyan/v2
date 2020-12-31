@@ -1,5 +1,5 @@
 ---
-date: '12'
+date: '23'
 title: 'Simon Game'
 github: 'https://github.com/KarenEfereyan/Simon-Game'
 external: 'https://simon-game-seven.vercel.app/'

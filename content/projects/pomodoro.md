@@ -1,5 +1,5 @@
 ---
-date: '15'
+date: '20'
 title: 'Pomodoro App'
 github: 'https://github.com/KarenEfereyan/PomodoroApp'
 external: 'https://pomodoro-app-pi.vercel.app/'

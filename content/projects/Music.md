@@ -1,5 +1,5 @@
 ---
-date: '5'
+date: '18'
 title: 'Music App'
 github: 'https://github.com/KarenEfereyan/NewVueMusicApp'
 external: 'https://new-vue-music-app.vercel.app/'

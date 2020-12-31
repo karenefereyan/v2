@@ -1,5 +1,5 @@
 ---
-date: '16'
+date: '13'
 title: 'Insure'
 github: 'https://github.com/KarenEfereyan/Insure'
 external: 'https://insure-landing-page-zeta.now.sh/'
