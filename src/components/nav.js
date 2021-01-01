@@ -7,7 +7,7 @@ import { navLinks } from '@config';
 import { loaderDelay } from '@utils';
 import { useScrollDirection } from '@hooks';
 import { Menu } from '@components';
-import { IconLogo } from '@components/icons';
+
 
 const StyledHeader = styled.header`
   ${({ theme }) => theme.mixins.flexBetween};
@@ -160,11 +160,11 @@ const Nav = ({ isHome }) => {
               <div className="logo" tabIndex="-1">
                 {isHome ? (
                   <a href="/" aria-label="home">
-                    <IconLogo />
+                    KarenEfereyan
                   </a>
                 ) : (
                   <Link to="/" aria-label="home">
-                    <IconLogo />
+                    KarenEfereyan
                   </Link>
                 )}
               </div>
@@ -191,7 +191,7 @@ const Nav = ({ isHome }) => {
             {isMounted && (
               <CSSTransition classNames={fadeDownClass} timeout={timeout}>
                 <div style={{ transitionDelay: `${isHome ? navLinks.length * 100 : 0}ms` }}>
-                  <a href="/resume.pdf" className="resume-button">
+                  <a href= "resume.pdf" className="resume-button">
                     Resume
                   </a>
                 </div>

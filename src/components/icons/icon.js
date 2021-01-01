@@ -18,6 +18,7 @@ import {
   IconZap,
 } from '@components/icons';
 
+
 const Icon = ({ name }) => {
   switch (name) {
     case 'AppStore':

@@ -52,8 +52,8 @@ const Hero = () => {
   const three = <h3 className="big-heading">I solve problems through code.</h3>;
   const four = (
     <p>
-      I'm a lifelong learner, passionate about using the web to profer solutions to human
-      problems whilst crafting longlasting digital experiences for users.
+      I'm a software engineer, and a lifelong learner, passionate about using the web to profer solutions to human
+      problems whilst crafting amazing digital experiences that last a lifetime.
     </p>
   );
   const five = (

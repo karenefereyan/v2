@@ -2,10 +2,12 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Karen Efereyan',
+    title: 'Karen Efereyan || Software Developer',
     description:
-      'Karen Efereyan  is a software developer that loves to craft amazing digital experiences',
-    siteUrl: 'https://karenefe.netlify.app', // No trailing slash allowed!
+      `I am a software developer, and a lifelong learner, passionate about using the
+       web to profer solutions to human problems whilst crafting amazing digital 
+       experiences that last a lifetime.`,
+    siteUrl: 'https://karenefe.netlify.app', 
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@EfereyanK',
   },
