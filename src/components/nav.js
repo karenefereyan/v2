@@ -7,6 +7,7 @@ import { navLinks } from '@config';
 import { loaderDelay } from '@utils';
 import { useScrollDirection } from '@hooks';
 import { Menu } from '@components';
+import logo from '../images/logo.png';
 
 
 const StyledHeader = styled.header`
@@ -160,11 +161,11 @@ const Nav = ({ isHome }) => {
               <div className="logo" tabIndex="-1">
                 {isHome ? (
                   <a href="/" aria-label="home">
-                    KarenEfereyan
+                  <img src = {logo} alt = "Karen Efereyan Logo" />
                   </a>
                 ) : (
                   <Link to="/" aria-label="home">
-                    KarenEfereyan
+                   <img src = {logo} alt = "Karen Efereyan Logo" />
                   </Link>
                 )}
               </div>
@@ -191,7 +192,7 @@ const Nav = ({ isHome }) => {
             {isMounted && (
               <CSSTransition classNames={fadeDownClass} timeout={timeout}>
                 <div style={{ transitionDelay: `${isHome ? navLinks.length * 100 : 0}ms` }}>
-                  <a href= "resume.pdf" className="resume-button">
+                  <a href= "karenresume.pdf" className="resume-button" target = "_blank" rel = "noreferrer">
                     Resume
                   </a>
                 </div>

@@ -145,7 +145,7 @@ const About = () => {
 
             <p>
               I am empathetic about using software to solve human problems. I also love to share 
-              knowledge through <a href = "">content creation</a>. My goal is to provide awesome
+              knowledge through <a href = "https://www.youtube.com/channel/UC4yjCuOfEfXRoXGJI7aHAXg" target = "_blank">content creation</a>. My goal is to provide awesome
               digital experiences, and have fun on the way.
             </p>
 

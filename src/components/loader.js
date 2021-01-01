@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import anime from 'animejs';
 import styled from 'styled-components';
 import { IconLoader } from '@components/icons';
+import logo from '../images/logo.png';
 
 const StyledLoader = styled.div`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -86,7 +87,8 @@ const Loader = ({ finishLoading }) => {
       <Helmet bodyAttributes={{ class: `hidden` }} />
 
       <div className="logo-wrapper">
-        <IconLoader />
+        {/* <IconLoader /> */}
+        <img src = {logo} alt = "Karen's Logo" />
       </div>
     </StyledLoader>
   );

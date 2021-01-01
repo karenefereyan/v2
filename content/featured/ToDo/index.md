@@ -8,7 +8,6 @@ tech:
   - Nodejs
   - Ejs
   - MongoDB
-  - Body Parser
   - Expressjs
   - Heroku
 showInProjects: true

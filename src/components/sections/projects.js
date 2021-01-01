@@ -174,8 +174,9 @@ const Projects = () => {
     <StyledProjectsSection>
       <h2 ref={revealTitle}>Other Noteworthy Projects</h2>
 
-      <Link className="inline-link archive-link" to="https://github.com/KarenEfereyan" ref={revealArchiveLink}>
-        view the archive
+      <Link className="inline-link archive-link" to="https://github.com/KarenEfereyan"
+       ref={revealArchiveLink} target = "_blank">
+        View the archive
       </Link>
 
       <TransitionGroup className="projects-grid">

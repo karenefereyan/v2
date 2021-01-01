@@ -6,7 +6,7 @@ github: 'https://github.com/KarenEfereyan/covik-19-tracker'
 external: 'https://covik-19-tracker.vercel.app/'
 tech:
   - Reactjs
-  - Css Modules
+  - Css 
   - Material UI
   - Chartjs
   - Netlify
