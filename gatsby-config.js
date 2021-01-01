@@ -27,7 +27,7 @@ module.exports = {
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
         display: 'minimal-ui',
-        icon: 'src/images/logo.png',
+        icon: `${__dirname}/src/images/logo.png`,
       },
     },
     `gatsby-plugin-offline`,
@@ -48,8 +48,15 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `posts`,
-        path: `${__dirname}/content/posts`,
+        name: `featured`,
+        path: `${__dirname}/content/featured`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `jobs`,
+        path: `${__dirname}/content/jobs`,
       },
     },
     {

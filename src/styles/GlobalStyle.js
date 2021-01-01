@@ -3,6 +3,9 @@ import Fonts from './fonts';
 import TransitionStyles from './TransitionStyles';
 import PrismStyles from './PrismStyles';
 
+
+// Global Styles Applied All Round in this website
+
 const GlobalStyle = createGlobalStyle`
   ${Fonts};
 
