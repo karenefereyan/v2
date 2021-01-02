@@ -8,7 +8,7 @@ const path = require('path');
 const _ = require('lodash');
 
 exports.createPages = async ({ actions, graphql, reporter }) => {
-  // const { createPage } = actions;
+  const { createPage } = actions;
   // const postTemplate = path.resolve(`src/templates/post.js`);
   // const tagTemplate = path.resolve('src/templates/tag.js');
 
@@ -42,29 +42,31 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   // }
 
   // Create post detail pages
-//   const posts = result.data.postsRemark.edges;
+  // const posts = result.data.postsRemark.edges;
 
-//   posts.forEach(({ node }) => {
-//     createPage({
-//       path: node.frontmatter.slug,
-//       component: postTemplate,
-//       context: {},
-//     });
-//   });
+  // posts.forEach(({ node }) => {
+  //   createPage({
+  //     path: node.frontmatter.slug,
+  //     component: postTemplate,
+  //     context: {},
+  //   });
+  // });
 
-//   // Extract tag data from query
-//   const tags = result.data.tagsGroup.group;
-//   // Make tag pages
-//   tags.forEach(tag => {
-//     createPage({
-//       path: `/pensieve/tags/${_.kebabCase(tag.fieldValue)}/`,
-//       component: tagTemplate,
-//       context: {
-//         tag: tag.fieldValue,
-//       },
-//     });
-//   });
-// };
+  // Extract tag data from query
+ // const tags = result.data.tagsGroup.group;
+  
+  // Make tag pages
+  
+  // tags.forEach(tag => {
+  //   createPage({
+  //     path: `/pensieve/tags/${_.kebabCase(tag.fieldValue)}/`,
+  //     component: tagTemplate,
+  //     context: {
+  //       tag: tag.fieldValue,
+  //     },
+  //   });
+  // });
+};
 
 // https://www.gatsbyjs.org/docs/node-apis/#onCreateWebpackConfig
 exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
@@ -100,4 +102,4 @@ exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
       },
     },
   });
-}};
+};
