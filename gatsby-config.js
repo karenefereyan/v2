@@ -3,6 +3,8 @@ const config = require('./src/config');
 module.exports = {
   siteMetadata: {
     title: 'Karen Efereyan || Software Developer',
+    author : 'Karen Efereyan',
+    keywords : 'Karen Efereyan, Karen, Efereyan, Karen Developer',
     description:
       `I am a software developer, and a lifelong learner, passionate about using the
        web to profer solutions to human problems whilst crafting amazing digital 
