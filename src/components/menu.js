@@ -95,7 +95,8 @@ const StyledSidebar = styled.aside`
     bottom: 0;
     right: 0;
     padding: 50px 10px;
-    width: min(75vw, 400px);
+    width:100%;
+    ${'' /* width: min(75vw, 400px); */}
     height: 100vh;
     outline: 0;
     background-color: var(--light-navy);
