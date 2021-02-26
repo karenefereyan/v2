@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { Icon } from '@components/icons';
@@ -67,28 +67,28 @@ const StyledCredit = styled.div`
   }
 `;
 
-const Footer = () => {
-  return (
-    <StyledFooter>
-      <StyledSocialLinks>
-        <ul>
-          {socialMedia &&
+const Footer = () => (
+  <StyledFooter>
+    <StyledSocialLinks>
+      <ul>
+        {socialMedia &&
             socialMedia.map(({ name, url }, i) => (
               <li key={i}>
-                <a href={url} aria-label={name}>
+                <a href={url} aria-label={name} target="_blank" rel="noreferrer">
                   <Icon name={name} />
                 </a>
               </li>
             ))}
-        </ul>
-      </StyledSocialLinks>
+      </ul>
+    </StyledSocialLinks>
 
-      <StyledCredit tabindex="-1">
-      <p>Design Inspiration by <a href="https://brittanychiang.com">Brittany Chiang.</a></p> 
-      </StyledCredit>
-    </StyledFooter>
-  );
-};
+    <StyledCredit tabindex="-1">
+      <p>
+          Design Inspiration by <a href="https://brittanychiang.com">Brittany Chiang.</a>
+      </p>
+    </StyledCredit>
+  </StyledFooter>
+);
 
 Footer.propTypes = {
   githubInfo: PropTypes.object,

@@ -144,9 +144,15 @@ const About = () => {
             <p>Hi! My name is Karen Efereyan, a software developer currently living in Nigeria.</p>
 
             <p>
-              I am empathetic about using software to solve human problems. I also love to share 
-              knowledge through <a href = "https://www.youtube.com/channel/UC4yjCuOfEfXRoXGJI7aHAXg" target = "_blank">content creation</a>. My goal is to provide awesome
-              digital experiences, and have fun on the way.
+              I am empathetic about using software to solve human problems. I also love to share
+              knowledge through{' '}
+              <a
+                href="https://www.youtube.com/channel/UC4yjCuOfEfXRoXGJI7aHAXg"
+                target="_blank"
+                rel="noreferrer">
+                content creation
+              </a>
+              . My goal is to provide awesome digital experiences, and have fun on the way.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>

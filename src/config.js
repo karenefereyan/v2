@@ -1,5 +1,5 @@
 module.exports = {
-  email: 'kimsyefe@gmail.com',
+  email: 'karenefereyan@gmail.com',
 
   socialMedia: [
     {
@@ -7,7 +7,7 @@ module.exports = {
       url: 'https://github.com/KarenEfereyan',
     },
     {
-      name: 'Linkedin',
+      name: 'LinkedIn',
       url: 'https://www.linkedin.com/in/KarenEfereyan',
     },
     {
@@ -18,6 +18,10 @@ module.exports = {
       name: 'Twitter',
       url: 'https://twitter.com/EfereyanK',
     },
+    {
+      name: 'PlayStore',
+      url: 'https://www.youtube.com/channel/UC4yjCuOfEfXRoXGJI7aHAXg',
+    },
   ],
 
   navLinks: [
@@ -25,10 +29,10 @@ module.exports = {
       name: 'About',
       url: '/#about',
     },
-    // {
-    //   name : 'Speaking',
-    //   url : '/#speaking',
-    // },
+    {
+      name: 'Speaking',
+      url: '/#speaking',
+    },
     {
       name: 'Experience',
       url: '/#jobs',

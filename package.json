@@ -1,14 +1,18 @@
 {
-  "name": "v4",
-  "description": "Personal Website V4",
+  "name": "v2",
+  "description": "Personal Portfolio Page For Karen Efereyan",
   "version": "1.0.0",
-  "author": "Brittany Chiang <brittany.chiang@gmail.com>",
+  "author": "Karen Efereyan <karenefereyan@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchiang7/v4"
+    "url": "https://github.com/KarenEfereyan/v2"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "Karen Efereyan Developer",
+    "Karen Efereyan Software Developer",
+    "Karen Efereyan Software Engineer",
+    "Karen Software developer"
   ],
   "license": "MIT",
   "scripts": {
