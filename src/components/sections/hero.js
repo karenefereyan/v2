@@ -54,7 +54,7 @@ const Hero = () => {
     <p>
       I'm a software engineer, and a lifelong learner, passionate about using the web to profer solutions to human
       problems whilst crafting amazing digital experiences that last a lifetime. 
-      Need pictures or my bio for a feature or conference speaking graphics? Visit my <a href="https://www.notion.so/karenstudies/Karen-s-Media-Ground-48966aec9b9f4899b7ae1b6ecff28292">Media Ground!</a>
+      Need pictures or my bio for a feature or conference speaking graphics? Visit my <a href="https://www.notion.so/karenstudies/Karen-s-Media-Ground-48966aec9b9f4899b7ae1b6ecff28292" target = "_blank">Media Ground!</a>
     </p>
   );
   const five = (
