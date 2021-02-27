@@ -4,12 +4,13 @@ module.exports = {
   siteMetadata: {
     title: 'Karen Efereyan || Software Developer',
     author: 'Karen Efereyan',
-    keywords: 'Karen Efereyan, Karen, Efereyan, Karen Developer',
+    keywords:
+      'Karen Efereyan, Karen, Efereyan, Karen Efereyan Developer, Karen Efereyan Software Engineer',
     description: `I am a software developer, and a lifelong learner, passionate about using the
        web to profer solutions to human problems whilst crafting amazing digital 
        experiences that last a lifetime.`,
     siteUrl: 'https://karenefe.netlify.app',
-    image: '/profile_cover.png', // Path to your image you placed in the 'static' folder
+    image: '/portfolio_cover.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@EfereyanK',
   },
   plugins: [
@@ -51,6 +52,13 @@ module.exports = {
       options: {
         name: `featured`,
         path: `${__dirname}/content/featured`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `talks`,
+        path: `${__dirname}/content/talks`,
       },
     },
     {
