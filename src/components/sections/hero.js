@@ -49,12 +49,18 @@ const Hero = () => {
 
   const one = <h1>Hello there, I'm </h1>;
   const two = <h2 className="big-heading">Karen Efereyan.</h2>;
-  const three = <h3 className="big-heading">I solve problems through code.</h3>;
+  const three = <h3 className="big-heading">Designing and Developing Creative Solutions</h3>;
   const four = (
     <p>
-      I'm a software engineer, and a lifelong learner, passionate about using the web to profer solutions to human
-      problems whilst crafting amazing digital experiences that last a lifetime. 
-      Need pictures or my bio for a feature or conference speaking graphics? Visit my <a href="https://www.notion.so/karenstudies/Karen-s-Media-Ground-48966aec9b9f4899b7ae1b6ecff28292" target = "_blank">Media Ground!</a>
+      I'm a software engineer, and a lifelong learner. I am passionate about proferring creative
+      solutions to real human problems whilst crafting appealing digital experiences that last a
+      lifetime. Need pictures or my bio for a feature or conference speaking graphics? Visit my
+      <a
+        href="https://www.notion.so/karenstudies/Karen-s-Media-Ground-48966aec9b9f4899b7ae1b6ecff28292"
+        target="_blank" rel="noreferrer">
+        {' '}
+        Media Ground!
+      </a>
     </p>
   );
   const five = (

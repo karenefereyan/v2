@@ -11,6 +11,10 @@ module.exports = {
       url: 'https://www.linkedin.com/in/KarenEfereyan',
     },
     {
+      name: 'Folder',
+      url: 'https://karenefereyan.medium.com',
+    },
+    {
       name: 'Instagram',
       url: 'https://www.instagram.com/KarenEfereyan',
     },
