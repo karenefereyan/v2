@@ -57,7 +57,8 @@ const Hero = () => {
       lifetime. Need pictures or my bio for a feature or conference speaking graphics? Visit my
       <a
         href="https://www.notion.so/karenstudies/Karen-s-Media-Ground-48966aec9b9f4899b7ae1b6ecff28292"
-        target="_blank" rel="noreferrer">
+        target="_blank"
+        rel="noreferrer">
         {' '}
         Media Ground!
       </a>
