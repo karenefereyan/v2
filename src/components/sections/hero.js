@@ -59,7 +59,7 @@ const Hero = () => {
         href="https://www.notion.so/karenstudies/Karen-s-Media-Ground-48966aec9b9f4899b7ae1b6ecff28292"
         target="_blank"
         rel="noreferrer">
-        Media Ground!
+        media ground!
       </a>
       {''}
     </p>
