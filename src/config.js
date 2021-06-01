@@ -7,12 +7,8 @@ module.exports = {
       url: 'https://github.com/KarenEfereyan',
     },
     {
-      name: 'LinkedIn',
+      name: 'Linkedin',
       url: 'https://www.linkedin.com/in/KarenEfereyan',
-    },
-    {
-      name: 'Folder',
-      url: 'https://karenefereyan.medium.com',
     },
     {
       name: 'Instagram',
@@ -20,12 +16,8 @@ module.exports = {
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/EfereyanK',
-    },
-    {
-      name: 'PlayStore',
-      url: 'https://www.youtube.com/channel/UC4yjCuOfEfXRoXGJI7aHAXg',
-    },
+      url: 'https://twitter.com/karenefereyan',
+    }
   ],
 
   navLinks: [

@@ -53,7 +53,7 @@ const Contact = () => {
       <p>
         I'm actively searching for new opportunities to grow my career. If you have any that might
         fit my skill set, kindly send me an email at{' '}
-        <a href="kimsyefe@gmail.com">kimsyefe@gmail.com</a>. Also, if you stumbled on this website
+        <a href="karenefereyan@gmail.com">karenefereyan@gmail.com</a>. Also, if you stumbled on this website
         or you're really curious about me, feel free to send me a message. I will try my absolute
         best to get back to you.
       </p>

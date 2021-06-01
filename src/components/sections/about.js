@@ -149,21 +149,7 @@ const About = () => {
             <p>
               I am a curious, self motivated young lady passionate about using software to make the
               lives of people around me better. I also love to share knowledge through content
-              creation, either on{' '}
-              <a
-                href="https://www.youtube.com/channel/UC4yjCuOfEfXRoXGJI7aHAXg"
-                target="_blank"
-                rel="noreferrer">
-                youtube
-              </a>{' '}
-              or on my{' '}
-              <a
-                href="https://karenefereyan.medium.com/the-customer-journey-f7e97fdf886e"
-                target="_blank"
-                rel="noreferrer">
-                blog
-              </a>
-              . My goal is to provide awesome digital experiences, and have fun on the way.
+              creation. My goal is to provide awesome digital experiences, and have fun on the way.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>

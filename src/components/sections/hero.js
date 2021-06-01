@@ -48,15 +48,15 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hello there, I'm </h1>;
-  const two = <h2 className="big-heading">Karen Efereyan.</h2>;
-  const three = <h3 className="big-heading">Designing and Developing Creative Solutions</h3>;
+  const two = <h2 className="big-heading">Developing Creative Solutions.</h2>;
+  const three = <h3 className="big-heading">Meet Karen Efereyan  👇</h3>;
   const four = (
     <p>
       I'm a software engineer, and a lifelong learner. I am passionate about proferring creative
       solutions to real human problems whilst crafting appealing digital experiences that last a
       lifetime. Need pictures or my bio for a feature or conference speaking graphics? Visit my {''}
       <a
-        href="https://www.notion.so/karenstudies/Karen-s-Media-Ground-48966aec9b9f4899b7ae1b6ecff28292"
+        href={"/media_ground.pdf"}
         target="_blank"
         rel="noreferrer">
         media ground!
