@@ -6,8 +6,8 @@ range: 'June 2020 - August 2020'
 url: 'https://help.pluralsight.com/help/google-africa-developer-scholarship-2020'
 ---
 
-
-
+- Built stunning and increasingly accessible websites and web applications by incorporating
+  Accessible Rich Internet Applications (ARIA) technologies.
+- Completed skill assessments and code reviews of diverse teammates and colleagues, fostering
+  joint learning.
 - Hands on practice with standard core web technologies like Javascript, HTML, CSS, Reactjs, APIs and many more..
-- Building websites and web applications with increased accessibility by incorporating ARIA technologies
-- Improve team work skills by being a great team member at my peer learning group and assist and get assisted by others to get unstuck in software development

@@ -3,11 +3,18 @@ import Fonts from './fonts';
 import TransitionStyles from './TransitionStyles';
 import PrismStyles from './PrismStyles';
 
-
 // Global Styles Applied All Round in this website
 
 const GlobalStyle = createGlobalStyle`
   ${Fonts};
+
+  // #150734
+  // #0F2557
+  // #28559A
+  // #3778C2
+  // #4B9FE1
+  // #63BCE5
+  // #7ED5EA
 
   :root {
     --dark-navy: #020c1b;

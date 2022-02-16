@@ -8,7 +8,7 @@ import { loaderDelay } from '@utils';
 import { useScrollDirection } from '@hooks';
 import { Menu } from '@components';
 import logo from '../images/logo.png';
-
+import resume from '../images/devkarenresume.pdf';
 
 const StyledHeader = styled.header`
   ${({ theme }) => theme.mixins.flexBetween};
@@ -161,11 +161,11 @@ const Nav = ({ isHome }) => {
               <div className="logo" tabIndex="-1">
                 {isHome ? (
                   <a href="/" aria-label="home">
-                  <img src = {logo} alt = "Karen Efereyan Logo" />
+                    <img src={logo} alt="Karen Efereyan Logo" />
                   </a>
                 ) : (
                   <Link to="/" aria-label="home">
-                   <img src = {logo} alt = "Karen Efereyan Logo" />
+                    <img src={logo} alt="Karen Efereyan Logo" />
                   </Link>
                 )}
               </div>
@@ -192,7 +192,7 @@ const Nav = ({ isHome }) => {
             {isMounted && (
               <CSSTransition classNames={fadeDownClass} timeout={timeout}>
                 <div style={{ transitionDelay: `${isHome ? navLinks.length * 100 : 0}ms` }}>
-                  <a href= {"/resume.pdf"} className="resume-button" target = "_blank" rel = "noreferrer">
+                  <a href={resume} className="resume-button" target="_blank" rel="noreferrer">
                     Resume
                   </a>
                 </div>
