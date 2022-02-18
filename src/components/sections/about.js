@@ -142,16 +142,18 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hi! My name is Karen Efereyan, a software engineer and an aspiring user interface and
-              experience designer
+              Hi! My name is Karen Efereyan, a software engineer specializing in frontend web
+              technologies.
             </p>
 
             <p>
-              I am a curious, self motivated young lady passionate about using software to make the
-              lives of people around me better. I also love to share knowledge through content
-              creation. My goal is to provide awesome digital experiences, and have fun on the way.
+              I was born into tech. Not literally, but kind of. I've always had technologically
+              savvy people around me. I cheated for a while with other technologies, but after
+              recently moving to New York City, I settled my long standing rift with my first love,
+              Javascript, and our relationship is slowly getting better. When I am not building
+              websites or web applications, I love taking the subway to Manhattan or eating my
+              favorite fish sandwich from Wendy's.
             </p>
-
             <p>Here are a few technologies I've been working with recently:</p>
           </div>
 
