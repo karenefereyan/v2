@@ -8,7 +8,7 @@ import { loaderDelay } from '@utils';
 import { useScrollDirection } from '@hooks';
 import { Menu } from '@components';
 import logo from '../images/logo.png';
-import resume from '../images/devkarenresume.pdf';
+// import resume from '../images/devkarenresume.pdf';
 
 const StyledHeader = styled.header`
   ${({ theme }) => theme.mixins.flexBetween};
@@ -192,7 +192,12 @@ const Nav = ({ isHome }) => {
             {isMounted && (
               <CSSTransition classNames={fadeDownClass} timeout={timeout}>
                 <div style={{ transitionDelay: `${isHome ? navLinks.length * 100 : 0}ms` }}>
-                  <a href={resume} className="resume-button" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://drive.google.com/file/d/16-9_ec3IvDqcjU_Q9vzQI9O-b_L55WMa/view?usp=sharing"
+                    className="resume-button"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     Resume
                   </a>
                 </div>

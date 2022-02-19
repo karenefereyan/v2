@@ -95,7 +95,7 @@ const StyledSidebar = styled.aside`
     bottom: 0;
     right: 0;
     padding: 50px 10px;
-    width:100%;
+    width: 100%;
     ${'' /* width: min(75vw, 400px); */}
     height: 100vh;
     outline: 0;
@@ -261,7 +261,10 @@ const Menu = () => {
               </ol>
             )}
 
-            <a href="https://drive.google.com/file/d/1TwnNbtSLJnBT_aBGRGnsd_vARlvRL_vP/view?usp=sharing" className="resume-link">
+            <a
+              href="https://drive.google.com/file/d/16-9_ec3IvDqcjU_Q9vzQI9O-b_L55WMa/view?usp=sharing"
+              className="resume-link"
+            >
               Resume
             </a>
           </nav>
